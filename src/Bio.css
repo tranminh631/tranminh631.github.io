@@ -9,7 +9,7 @@
 
 @media only screen and (min-width: 1024px) {
 	.Bio p {
-		padding: 10px 100px;
+		padding: 10px 80px;
 	}
 
 	.Bio > div {
@@ -20,7 +20,7 @@
 .Bio img {
 	width: 100%;
 	max-width: 350px;
-	filter: brightness(35%) grayscale(80%);
+	filter: brightness(80%);
 	border-radius: 50%
 }
 

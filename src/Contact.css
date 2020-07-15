@@ -6,3 +6,9 @@
 .Contact h2 {
 	margin-bottom: 40px;
 }
+
+.Contact .resume {
+	text-decoration: none;
+	display: inline;
+	margin-left: 10px;
+}

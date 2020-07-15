@@ -7,6 +7,7 @@ function Bio() {
 		<div className="Bio module">
 			<div className="img-container"><img src={Profile} alt="Profile"/></div>
 			<div>
+				<p><b>Bachelors</b> of <b>Computer Science</b> from <b>Virginia Tech</b></p>
 				<p>Software Developer in Test with over <b>
 					three years</b> of experience. Web development skills include <b>Cypress, Selenium,
 					Node, and React</b>. Highest traffic site ever worked on was <b>Special Olympics 2017</b> website,
