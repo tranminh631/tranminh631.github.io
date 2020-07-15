@@ -1,0 +1,8 @@
+.App-header {
+  background-color: #5A7B82;
+  padding: 10px 20px;
+}
+
+.App > div:nth-child(odd) {
+  background-color: #041616;
+}
