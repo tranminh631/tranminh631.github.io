@@ -1,0 +1,14 @@
+.Blog .fas {
+	font-size: 64px;
+	margin-left: 40px;
+}
+
+/*.Blog .fa-hammer {
+	animation: hammer 2s infinite;
+}
+
+@keyframes hammer {
+	0% {transform: rotate(30deg);}
+	50% {transform: rotate(-30deg);}
+	100% {transform: rotate(30deg);}
+}*/

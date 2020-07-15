@@ -16,6 +16,7 @@ class Welcome extends React.Component {
 			str1: "",
 			str2: "",
 			str3: "",
+			str4: "",
 			x: 0,
 			y: 0
 		};
