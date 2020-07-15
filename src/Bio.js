@@ -5,7 +5,7 @@ import './Bio.css'
 function Bio() {
 	return(
 		<div className="Bio module">
-			<div><img src={Profile} alt="Profile"/></div>
+			<div className="img-container"><img src={Profile} alt="Profile"/></div>
 			<div>
 				<p>Software Developer in Test with over <b>
 					three years</b> of experience. Web development skills include <b>Cypress, Selenium,

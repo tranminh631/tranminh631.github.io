@@ -17,9 +17,15 @@ header {
 }
 
 .module {
-	padding: 40px 120px;
+	padding: 40px;
 	min-height: 400px;
 	box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1024px) {
+	.module {
+		padding: 40px 120px;
+	}
 }
 
 .note {

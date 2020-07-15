@@ -23,3 +23,8 @@
 	filter: brightness(35%) grayscale(80%);
 	border-radius: 50%
 }
+
+.Bio .img-container {
+	width: 100%;
+	text-align: center;
+}
