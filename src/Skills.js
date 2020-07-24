@@ -1,18 +1,29 @@
 import React from 'react';
-import './Skills.css'
+import projects from './resources/projects.json';
+import './Skills.css';
+
+function parseTech() {
+	const parsed = {};
+	projects.forEach(project => {
+		project.technologies.forEach(tech => {
+			const projectShort = {
+				"project": project.name,
+				"length": tech.length ? tech.length : project.length
+			}
+			if (parsed[tech.name]) {
+				parsed[tech.name].push(projectShort)
+			} else {
+				parsed[tech.name] = [projectShort]
+			}
+		})
+	})
+	return parsed;
+}
 
 function Skills() {
 	return(
 		<div className="Skills module">
-			<h2>Skills & Certifications</h2>
-			<p><b>React</b> web developer with responsive experience</p>
-			<p className="note">Note: Please feel free to resize this page or visit via phone or tablet.</p>
-			<p><b>Java</b> developer in test. (Examples incoming)</p>
-			<p>ETL, Integration Testing, Cypress, Selenium, Express, Cucumber, Scrum, AWS</p>
-			<p><b>ISTQB Certified Tester</b> - 18-CTFL-02026-USA</p>
-			<p><a href="https://skillshop.exceedlms.com/profiles/08f10ae5d7c9405b848a19d36e0affe0"
-				target="_blank" rel="noopener noreferrer">
-				Google Ads Search Certification</a></p>
+			<p>{JSON.stringify(parseTech())}</p>
 		</div>
 	)
 }

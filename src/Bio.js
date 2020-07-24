@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from './Profile Pic.png'
+import Profile from './resources/Profile Pic.png'
 import './Bio.css'
 
 function Bio() {

@@ -1,0 +1,201 @@
+[
+	{
+		"name": "dungngoctran.github.io",
+		"isPublic": true,
+		"owner": "Dung Tran",
+		"length": 1,
+		"technologies": [
+			{
+				"name": "React"
+			},
+			{
+				"name": "JavaScript"
+			},
+			{
+				"name": "CSS"
+			},
+			{
+				"name": "Sublime Text"
+			},
+			{
+				"name": "Git"
+			}
+		]
+	},
+	{
+		"name": "tranminh631.github.io",
+		"isPublic": true,
+		"owner": "Minh Tran",
+		"length": 1,
+		"technologies": [
+			{
+				"name": "React"
+			},
+			{
+				"name": "JavaScript"
+			},
+			{
+				"name": "CSS"
+			},
+			{
+				"name": "Sublime Text"
+			},
+			{
+				"name": "Git"
+			}
+		]
+	},
+	{
+		"name": "mschoolsvoice.com",
+		"isPublic": true,
+		"owner": "Melvin Schools",
+		"length": 1,
+		"technologies": [
+			{
+				"name": "WordPress"
+			},
+			{
+				"name": "CSS"
+			}
+		]
+	},
+	{
+		"name": "market regulation website",
+		"owner": "FINRA",
+		"length": 12,
+		"technologies": [
+			{
+				"name": "Java"
+			},
+			{
+				"name": "Gradle"
+			},
+			{
+				"name": "IntelliJ"
+			},
+			{
+				"name": "Selenium",
+				"length": 4
+			},
+			{
+				"name": "Jira"
+			},
+			{
+				"name": "Modular Programming"
+			},
+			{
+				"name": "Integration Testing"
+			},
+			{
+				"name": "JUnit"
+			}
+		]
+	},
+	{
+		"name": "ETL project",
+		"owner": "FINRA",
+		"length": 12,
+		"technologies": [
+			{
+				"name": "Java"
+			},
+			{
+				"name": "Scala",
+				"length": 3
+			},
+			{
+				"name": "Jira"
+			},
+			{
+				"name": "Modular Programming"
+			},
+			{
+				"name": "Integration Testing"
+			},
+			{
+				"name": "JUnit"
+			}
+		]
+	},
+	{
+		"name": "e-commerce website",
+		"owner": "Minh Tran",
+		"length": 4,
+		"technologies": [
+			{
+				"name": "React"
+			},
+			{
+				"name": "Express"
+			},
+			{
+				"name": "JavaScript"
+			},
+			{
+				"name": "DynamoDB"
+			},
+			{
+				"name": "AWS"
+			},
+			{
+				"name": "Jira"
+			},
+			{
+				"name": "Modular Programming"
+			},
+			{
+				"name": "Integration Testing"
+			}
+		]
+	},
+	{
+		"name": "fantasy basketball analysis",
+		"owner": "Minh Tran",
+		"length": 1,
+		"technologies": [
+			{
+				"name": "Python"
+			},
+			{
+				"name": "Machine Learning"
+			},
+			{
+				"name": "AWS"
+			},
+			{
+				"name": "Sagemaker"
+			}
+		]
+	},
+	{
+		"name": "Special Olympics 2017",
+		"isPublic": true,
+		"retired": true,
+		"owner": "Perfect Sense",
+		"length": 3,
+		"technologies": [
+			{
+				"name": "Java"
+			}
+		]
+	},
+	{
+		"name": "internal Marriott website",
+		"owner": "Perfect Sense",
+		"length": 3,
+		"technologies": [
+			{
+				"name": "JavaScript"
+			},
+			{
+				"name": "HandleBars"
+			},
+			{
+				"name": "CSS"
+			},
+			{
+				"name": "Less"
+			}
+		]
+	}
+]

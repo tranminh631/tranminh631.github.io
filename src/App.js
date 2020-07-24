@@ -6,6 +6,7 @@ import Bio from './Bio';
 import Skills from './Skills';
 import Contact from './Contact';
 import Blog from './Blog';
+import Certifications from './Certifications';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Welcome />
       <Bio />
       <Skills />
+      <Certifications />
       <Blog />
       <Contact />
     </div>
