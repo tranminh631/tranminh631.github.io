@@ -10,6 +10,10 @@ a, b, .fas {
   border-color: #6CAFBE;
 }
 
+rect {
+	fill: #6CAFBE;
+}
+
 h2 {
 	margin-bottom: 40px;
 }
@@ -35,4 +39,8 @@ header {
 .note {
 	padding-left: 40px;
 	font-size: 14px;
+}
+
+.small-text {
+	font-size: 12px;
 }

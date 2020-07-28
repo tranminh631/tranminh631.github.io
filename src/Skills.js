@@ -103,7 +103,6 @@ class Skills extends React.Component {
 	    .selectAll('mybar')
 	    .data(data)
 	    .enter().append("rect")
-	    .style('fill', '#fe9922')
       .attr('x', d => {
       	return x(d.name)})
       .attr('y', d => y(Object.entries(d).reduce((accumulator, [key, value]) => {
@@ -126,7 +125,11 @@ class Skills extends React.Component {
 	render() {	
 		return(
 			<div className="Skills module">
-				<svg ref={node => this.node = node} width={1200} height={400}></svg>
+				<h2>Technologies from Major Projects (>=1 month)</h2>
+				<p className="small-text">Powered by D3.js</p>
+				<div className="Skills-svg-container">
+					<svg ref={node => this.node = node} width={1200} height={400}></svg>
+				</div>
 			</div>
 		)
 	}

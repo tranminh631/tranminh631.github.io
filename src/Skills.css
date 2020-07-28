@@ -1,6 +1,13 @@
 .Skills {
 	text-align: center;
+}
+
+.Skills-svg-container {
 	overflow: auto;
+}
+
+.Skills > h2 {
+	margin-bottom: 5px;
 }
 
 .Skills > svg {

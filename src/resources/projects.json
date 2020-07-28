@@ -176,6 +176,10 @@
 		"technologies": [
 			{
 				"name": "Java"
+			},
+			{
+				"name": "OAuth",
+				"length": 1
 			}
 		]
 	},
