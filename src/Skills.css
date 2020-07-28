@@ -1,18 +1,12 @@
-.Skills .fas {
-	margin: 10px;
-	border: 1px solid;
-	border-radius: 4px;
-	padding: 5px;
+.Skills {
+	text-align: center;
+	overflow: auto;
 }
 
-.Skills .fas:hover {
-	cursor: pointer;
+.Skills > svg {
+	padding: 10px;
 }
 
-.Skills > div {
-	padding-left: 40px;
-}
-
-.Skills > p {
-	margin: 30px 0;
+.Skills text {
+	fill: white;
 }
