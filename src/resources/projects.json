@@ -91,6 +91,9 @@
 			},
 			{
 				"name": "Security Testing"
+			},
+			{
+				"name": "AWS"
 			}
 		]
 	},
@@ -117,6 +120,9 @@
 			},
 			{
 				"name": "JUnit"
+			},
+			{
+				"name": "AWS"
 			}
 		]
 	},
