@@ -158,7 +158,7 @@ class Skills extends React.Component {
 				<h2>Skills</h2>
 				<p className="small-text">Powered by D3.js</p>
 				<div className="Skills-svg-container">
-					<svg ref={node => this.node = node} viewBox="0 0 1200 600"></svg>
+					<svg ref={node => this.node = node} viewBox="0 0 1100 600"></svg>
 				</div>
 			</div>
 		)

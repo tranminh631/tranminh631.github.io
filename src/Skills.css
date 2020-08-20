@@ -1,5 +1,5 @@
 .Skills {
-	padding: 40px 10px;
+	padding: 40px 30px 40px 10px;
 	text-align: center;
 }
 
@@ -23,6 +23,10 @@
 @media only screen and (min-width: 1024px) {
 	.Skills text {
 		font-size: 16px;
+	}
+
+	.Skills {
+		padding-right: 80px;
 	}
 
 	.Skills .x-label {
