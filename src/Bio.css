@@ -1,6 +1,7 @@
 .Bio {
 	display: flex;
 	flex-wrap: wrap;
+	text-align: left;
 }
 
 .Bio > div {
@@ -14,6 +15,10 @@
 
 	.Bio > div {
 		max-width: 50%;
+	}
+
+	.Bio img {
+		margin-top: 70px;
 	}
 }
 

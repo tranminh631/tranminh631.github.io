@@ -8,7 +8,7 @@ class Welcome extends React.Component {
 		this.text = [
 			"Welcome to tranminh631.github.io",
 			"The premier place for information about Minh Tran",
-			"Software Developer from Herndon, VA",
+			"Software Developer in Test from Herndon, VA",
 			"This website is built using React"
 		]
 		this.state = {
@@ -23,7 +23,7 @@ class Welcome extends React.Component {
 	}
 
 	componentDidMount() {
-		this.timerID = setInterval(() => this.type(), 75)
+		this.timerID = setInterval(() => this.type(), 50)
 	}
 
 	componentWillUnmount() {

@@ -88,6 +88,9 @@
 			},
 			{
 				"name": "JUnit"
+			},
+			{
+				"name": "Security Testing"
 			}
 		]
 	},
@@ -148,6 +151,9 @@
 			},
 			{
 				"name": "Integration Testing"
+			},
+			{
+				"name": "CSS"
 			}
 		]
 	},

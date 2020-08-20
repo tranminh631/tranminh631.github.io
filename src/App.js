@@ -5,8 +5,8 @@ import Welcome from './Welcome';
 import Bio from './Bio';
 import Skills from './Skills';
 import Contact from './Contact';
-import Blog from './Blog';
 import Certifications from './Certifications';
+import Security from './Security';
 
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
       <Welcome />
       <Bio />
       <Skills />
+      <Security />
       <Certifications />
-      <Blog />
       <Contact />
     </div>
   );

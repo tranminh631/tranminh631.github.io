@@ -5,6 +5,27 @@ import { scaleBand, scaleLinear } from 'd3-scale';
 import { select } from 'd3-selection';
 import {axisBottom, axisLeft} from 'd3-axis';
 
+const ignoreList = [
+	"Sublime Text",
+	"Git",
+	"WordPress",
+	"Gradle",
+	"IntelliJ",
+	"Selenium",
+	"Modular Programming",
+	"Scala",
+	"Express",
+	"Node.js",
+	"Python",
+	"Machine Learning",
+	"Sagemaker",
+	"OAuth",
+	"HandleBars",
+	"Less",
+	"Jira",
+	"JavaScript"
+]
+
 function parseTech() {
 	const parsed = {};
 	projects.forEach(project => {
@@ -28,6 +49,8 @@ function parseTech() {
 			flat[value.project] = value.length
 		})
 		return flat;
+	}).filter(tech => {
+		return !ignoreList.includes(tech.name)
 	});
 }
 
@@ -50,7 +73,7 @@ class Skills extends React.Component {
 		const groups = data.map(tech => {return tech.name})
     const x = scaleBand()
        .domain(groups)
-       .range([margin.left, width - margin.right])
+       .range([margin.left * 2, width - margin.right])
        .padding([0.2])
     const y = scaleLinear()
     	.domain([0, 35])
@@ -69,6 +92,7 @@ class Skills extends React.Component {
 	    .exit()
 	    .remove()
 
+	  //outer ticks
 	  select(node)
 	  	.append("g")
 	  	.attr("transform", "translate(0," + height + ")")
@@ -77,26 +101,32 @@ class Skills extends React.Component {
 		    .attr("transform", "translate(-10,0)rotate(-45)")
 		    .style("text-anchor", "end");
 
+		//grid lines
+		select(node)
+	  	.append("g")
+	  	.classed("grid", true)
+	  	.attr("transform", "translate(" + (margin.left * 2) + ",0)")
+	  	.call(axisLeft(y).tickSize(-width).tickFormat(""))
+
 		select(node)
 			.append("text")
-      .attr("transform",
-      "translate(" + (width/2) + " ," + 
-                     (height + margin.top + 100) + ")")
       .style("text-anchor", "middle")
+      .classed("axis-label x-label", true)
 			.text("Technical Skill")
 
 		select(node)
 			.append("g")
-				.attr("transform", `translate(${margin.left},0)`)
+				.attr("transform", `translate(${margin.left * 2},0)`)
 				.call(axisLeft(y));
 
 		select(node)
 			.append("text")
-			.attr("transform", "rotate(-90)")
+			// .attr("transform", "")
+			.attr("transform", `rotate(-90),translate(0,30)`)
       .attr("y", 0)
       .attr("x",0 - (height / 2))
-      .attr("dy", "1em")
       .style("text-anchor", "middle")
+      .classed("axis-label y-label", true)
 			.text("Months")
 
 	  select(node)
@@ -125,10 +155,10 @@ class Skills extends React.Component {
 	render() {	
 		return(
 			<div className="Skills module">
-				<h2>Technologies from Major Projects (>=1 month)</h2>
+				<h2>Skills</h2>
 				<p className="small-text">Powered by D3.js</p>
 				<div className="Skills-svg-container">
-					<svg ref={node => this.node = node} width={1200} height={400}></svg>
+					<svg ref={node => this.node = node} viewBox="0 0 1200 600"></svg>
 				</div>
 			</div>
 		)

@@ -11,7 +11,7 @@ a, b, .fas {
 }
 
 rect {
-	fill: #6CAFBE;
+	fill: #89beca;
 }
 
 h2 {
@@ -28,11 +28,16 @@ header {
 	padding: 40px;
 	min-height: 400px;
 	box-sizing: border-box;
+	text-align: center;
 }
 
 @media only screen and (min-width: 1024px) {
 	.module {
 		padding: 40px 120px;
+	}
+
+	.axis-label {
+		font-size: 20px;
 	}
 }
 
@@ -43,4 +48,19 @@ header {
 
 .small-text {
 	font-size: 12px;
+}
+
+.axis-label {
+	font-size: 40px;
+}
+
+.tile {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	padding: 0 20px;
+}
+
+.tile > p {
+	text-align: left;
 }
