@@ -1,3 +1,8 @@
+.Skills {
+	padding: 40px 10px;
+	text-align: center;
+}
+
 .Skills-svg-container {
 	overflow: auto;
 }
@@ -22,9 +27,5 @@
 
 	.Skills .x-label {
 		transform: translate(600px,450px);
-	}
-
-	.Skills {
-		height: 700px;
 	}
 }

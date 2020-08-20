@@ -154,7 +154,7 @@ class Skills extends React.Component {
 
 	render() {	
 		return(
-			<div className="Skills module">
+			<div className="Skills">
 				<h2>Skills</h2>
 				<p className="small-text">Powered by D3.js</p>
 				<div className="Skills-svg-container">
