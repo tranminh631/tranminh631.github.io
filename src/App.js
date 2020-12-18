@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Minh
+        Minh <i>Last Updated 12/18/2020</i>
       </header>
       <Welcome />
       <Bio />

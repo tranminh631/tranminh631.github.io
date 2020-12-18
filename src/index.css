@@ -64,3 +64,7 @@ header {
 .tile > p {
 	text-align: left;
 }
+
+iframe body {
+	height: 300px;
+}

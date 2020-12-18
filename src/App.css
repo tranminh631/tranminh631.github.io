@@ -9,3 +9,9 @@
 .App > div:nth-child(odd) {
   background-color: #041616;
 }
+
+.App-header i {
+	font-size: 16px;
+	float: right;
+	padding-right: 40px;
+}
