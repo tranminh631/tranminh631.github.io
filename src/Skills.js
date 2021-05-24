@@ -23,7 +23,9 @@ const ignoreList = [
 	"HandleBars",
 	"Less",
 	"Jira",
-	"JavaScript"
+	"React",
+	"XML",
+	"DynamoDB"
 ]
 
 function parseTech() {
@@ -32,7 +34,7 @@ function parseTech() {
 		project.technologies.forEach(tech => {
 			const projectShort = {
 				"project": project.name,
-				"length": tech.length ? tech.length : project.length
+				"length": tech.length / 12 ? tech.length / 12 : project.length / 12
 			}
 			if (parsed[tech.name]) {
 				parsed[tech.name].push(projectShort)
@@ -76,7 +78,7 @@ class Skills extends React.Component {
        .range([margin.left * 2, width - margin.right])
        .padding([0.2])
     const y = scaleLinear()
-    	.domain([0, 35])
+    	.domain([0, 4])
     	.range([height, margin.bottom])
 
 	  select(node)

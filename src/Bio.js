@@ -10,19 +10,10 @@ function Bio() {
 			</div>
 			<div>
 				<p><b>Bachelors</b> of <b>Computer Science</b> from <b>Virginia Tech</b></p>
-				<p>Hardworking Software Developer in Test 
-				offering <b>3 years experience</b> and expertise necessary to
-				plan, <b>develop</b>, <b>test</b>, and <b>secure</b> dynamic and
-				complex software systems. Open and clear communicator with good
-				multitasking skills, organized nature and strong attention to detail.
-				Helps teams produce exceptional products
-				by offering in-depth <b>quality assurance support</b>.</p>
-				<p>Background writing and implementing test cases, developing
-				testing plans and identifying use cases. Fully versed in
-				complete Software Development Lifecycle (SDLC).
-				Strong background in <b>automated functional and security testing</b>.
-				Interested in <b>shifting career to Information
-				Security</b> industry.
+				<p>Hard working IT Specialist with dual background as <b>full-stack web developer</b> and <b>integration tester</b>.
+				Ability to plan and implement software systems across full <b>SDLC</b> from
+				requirements documentation through user acceptance testing. Experience
+				coordinating with and managing clients directly. Domain background in regulation, insurance, and financial services.
 				</p>
 			</div>
 		</div>
