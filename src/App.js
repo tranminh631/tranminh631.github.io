@@ -1,24 +1,30 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
-import Welcome from './Welcome';
 import Bio from './Bio';
-import Skills from './Skills';
+import BusinessAnalysis from './BusinessAnalysis';
 import Contact from './Contact';
-import Certifications from './Certifications';
+import Development from './Development';
 import Security from './Security';
+import QA from './QA';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Minh <i>Last Updated 5/24/2021</i>
+        {/*<a href="#Bio">Bio</a>
+        <a href="#BusinessAnalysis">Analysis</a>
+        <a href="#Development">Development</a>
+        <a href="#QA">QA</a>
+        <a href="#Security">Security</a>
+        <a href="#Contact">Contact</a>*/}
+        Minh
+        <i>Last Updated 9/14/2021</i>
       </header>
-      <Welcome />
       <Bio />
-      <Skills />
+      <BusinessAnalysis />
+      <Development />
+      <QA />
       <Security />
-      <Certifications />
       <Contact />
     </div>
   );

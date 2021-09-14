@@ -3,7 +3,7 @@ import './Contact.css';
 
 function Contact() {
 	return(
-		<div className="Contact module">
+		<div className="Contact module" id="Contact">
 			<h2>Contact</h2>
 			<p>tranminh631@gmail.com</p>
 			<p>Located in Herndon, Virginia</p>

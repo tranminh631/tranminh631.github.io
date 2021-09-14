@@ -4,7 +4,7 @@ import './Bio.css'
 
 function Bio() {
 	return(
-		<div className="Bio module">
+		<div className="Bio module" id="Bio">
 			<div className="img-container">
 				<img src={Profile} alt="Profile"/>
 			</div>
