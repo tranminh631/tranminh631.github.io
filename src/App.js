@@ -18,7 +18,7 @@ function App() {
         <a href="#Security">Security</a>
         <a href="#Contact">Contact</a>*/}
         Minh
-        <i>Last Updated 9/14/2021</i>
+        <i>Last Updated 12/29/2021</i>
       </header>
       <Bio />
       <BusinessAnalysis />
